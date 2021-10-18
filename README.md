@@ -31,3 +31,7 @@ static List<String> getPhoneNums(LibraryMember[] members, LendingItem item)
 in the Admin class should do the following: It must return a sorted list of the phone numbers of those library members who have checked out, at least once, the LendingItem item that is passed in as input. In order to compare the input item with the LendingItems that you can find in library members' checkout records, you will have to override equals in an appropriate way (the equals method is not shown in the diagram – you will need to decide which class(es) need to override equals).
 A class Test has been included in your prob2 package (this class is not shown in the class diagram below). This class provides a main method with data that can be used to test your implementation. The expected output of the main method in Test is shown in the comments for that method.
 Note: You do NOT need to use a stream pipeline in your implementation of getPhoneNums – in fact, you do not need to use any special Java 8 constructs or techniques.
+
+ 
+ ![alt text]()
+ 
